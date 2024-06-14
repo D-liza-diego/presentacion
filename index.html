@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <p>Diego Liza Cruzalegui</p>
+        </div>
+        <nav>
+            <a type="button" class="btn btn-outline-light scroll-change btn-sm" onclick="abrirGmail()">
+                <i class="fa-solid fa-envelope"></i> Email</a>
+            <a type="button" class="btn btn-outline-light scroll-change btn-sm" onclick="abrirWhatsapp()">
+                <i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
+            <a type="button" class="btn btn-outline-light scroll-change btn-sm" onclick="abrirLinkedin()">
+                <i class="fa-brands fa-linkedin"></i> Linkedin</a>
+        </nav>
+    </header>
+
+    <section class="sec-intro">
+        <h1 class="animate">Desarrollador Android y .NET</h1>
+        <p class="animate">¡Hola!, soy desarrollador con más de 3 años de experiencia en desarrollo móvil en Android
+            utilizando Kotlin y Java, backend en C#. He implementado proyectos que han sido de gran utilidad para la
+            automatización de procesos empresariales.
+        </p>
+        <a type="button" class="btn btn-outline-light btn-lg" href="#sec-timeline">
+            Explorar  <i class="fa-solid fa-magnifying-glass"></i></a>
+    </section>
+
+    <section class="sec-timeline" id="sec-timeline">
+        <div class="timeline animate">
+            <div class="checkpoint">
+                <div>
+                    <h2>2021 - Actualidad</h2>
+                    <p> Durante mi periodo actual como desarrollador backend, mi enfoque principal ha sido liderar
+                        proyectos de integración con diferentes sistemas para obtener una mayor comunicación entre
+                        ellos. He utilizado diferentes recursos y herramientas para el éxito de mis proyectos.</p>
+                    <ul>
+                        <li>Metodos HTTP</li>
+                        <li>Postman y Ngrok</li>
+                        <li>Uso de formato JSON, XML</li>
+                        <li>LINQ, Datatables y DataCollection</li>
+                        <li>MVC, DTO</li>
+                        <li>REST API, SOAP</li>
+                        <li>SQL, MySQL</li>
+                        <li>ASP.NET 4,5,6</li>
+                        <li>Facturacion Electronica</li>
+                        <li>Firebase CLoud Messaging, Meta Cloud Api</li>
+                    </ul>
+                    <div>
+                        <button type="button" class="btn btn-outline-danger"
+                            href="cv/Diego Alonso Liza Cruzalegui-Backend NET.pdf" download="">
+                            <i class="fa-solid fa-file-pdf"></i> Descargar CV</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="checkpoint">
+                <div>
+                    <h2>2022 - Actualidad</h2>
+                    <p>Durante el lapso actual de mi posición como desarrollador mid-senior Android, he liderado
+                        proyectos de automatización de procesos empresariales los cuales fueron exitosos por la
+                        obtención de información de recursos, documentación y foros en idioma inglés lo cual manejo
+                        eficientemente. En la implementación de mis proyectos he utilizado las siguientes herramientas:
+                    <ul>
+                        <li>Material Desgin
+                            <ul>
+                                <li>Material desgin 2</li>
+                                <li>Material desgin 3</li>
+                            </ul>
+                        </li>
+                        <li>Diseño de vistas
+                            <ul>
+                                <li>Constraint Layout</li>
+                                <li>Relative Layout</li>
+                                <li>Linear Layout</li>
+                            </ul>
+                        </li>
+                        <li>Firebase
+                            <ul>
+                                <li>Firebase Crashlytics</li>
+                                <li>Firebase Messaging</li>
+                                <li>Firebase Storage</li>
+                            </ul>
+                        </li>
+                        <li>MVVM</li>
+                        <li>Retrofit2, Gson</li>
+                        <li>Inyeccion de dependencias Dagger Hilt, Clean architecture</li>
+                    </ul>
+                    <div>
+                        <a type="button" class="btn btn-outline-danger"
+                            href="cv/Diego Alonso Liza Cruzalegui-Movil Android.pdf" download="">
+                            <i class="fa-solid fa-file-pdf"></i> Descargar CV</a>
+                    </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <img src="certificados/udemy-js.jpg" alt="Certificado de udemy en Javascript">
+                </div>
+                <div class="col-sm">
+                    <img src="certificados/udemy-mvc.jpg" alt="Certificado de udemy con MVC">
+                </div>
+                <div class="col-sm">
+                    <img src="certificados/udemy-sql.jpg" alt="Certificado de udemy en SQL">
+                </div>
+            </div>
+
+            <div class="vermas">
+                <a type="button" class="btn btn-outline-success btn-lg" onclick="abrirLinkedin()">
+                    Ver mas <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
