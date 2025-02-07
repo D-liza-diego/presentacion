@@ -1,3 +1,1 @@
-[{
-  "test":1
-}]
+[{ "relation": ["delegate_permission/common.handle_all_urls"], "target": { "namespace": "android_app", "package_name": "com.bcp.bank.bcp", "sha256_cert_fingerprints": ["A6:34:FE:9B:4F:12:FB:F6:9F:05:1F:3F:51:09:AB:5B:58:A6:22:D4:3A:FC:7C:25:55:A1:16:9A:B6:9F:E1:BA"] } }]
